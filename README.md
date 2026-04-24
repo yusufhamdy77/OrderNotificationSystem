@@ -39,6 +39,7 @@ OrderNotificationSystem
 A custom delegate is defined inside `OrderService` to define the method signature for event handling.
 
 public delegate void OrderPlacedEventHandler(Order order);
+
 2. Event
 
 An event is used to notify subscribers when an order is placed.
